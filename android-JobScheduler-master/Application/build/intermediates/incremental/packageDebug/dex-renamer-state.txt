@@ -1,0 +1,7 @@
+#Mon May 29 22:39:13 EDT 2017
+base.0=D\:\\AndroidStudioProjects\\android-JobScheduler-master\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f1f5d4413f0d5f4979f0531c5030c99806a0ecc6
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\AndroidStudioProjects\\android-JobScheduler-master\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_56796e6bf757808358b034d05c1c5a9bc3bf2d90\\classes.dex
+base.1=D\:\\AndroidStudioProjects\\android-JobScheduler-master\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_56796e6bf757808358b034d05c1c5a9bc3bf2d90
+file.0=D\:\\AndroidStudioProjects\\android-JobScheduler-master\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f1f5d4413f0d5f4979f0531c5030c99806a0ecc6\\classes.dex

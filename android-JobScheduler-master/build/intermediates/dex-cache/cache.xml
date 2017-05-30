@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_33d7ffe962b6c50ee14c4d7d0de55fc5bb9e0d47\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\c23cf0125d46d5e1da801665ba679ec5fd5960c6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6124e27604d7efd8a95564abb2e0868f6ba99016\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\3d6c7ef91cfd35b71e36d8eaee9a37c7c62c82ac\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1de95d667ed8ae9889b65a2937b3cda850bdd389\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\a96cd25c9b62b09aa32100ed443604e7aa3e4701\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_c134225a08fac4d4815fba335a27780c1323b415\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\e635522186f5f95daf6e5afc8ab49b839c96c491\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35e74f0a58d18d4bc540703e543ca54967dd44b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f1f5d4413f0d5f4979f0531c5030c99806a0ecc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3429fd80c331e897005e5ebc5504dc9b2a986fa5">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_56796e6bf757808358b034d05c1c5a9bc3bf2d90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\674501f8469a2d4381e6e03084cc561bf1d5e831\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_a0d043709bfb33b1ab1edf4c5f3382545cbd9bd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\a7549e1f644eaf3bd1d4bcaa3daadada3227dbdd\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_cce2e3836855f1d3a2c70b5328cfcd2f9e1317ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\452b3d8b970351fe4c89c334829c53210dfffbcb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a03d943ba5f38633d90e32a7a268a76a0a7153d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\27e151ae3b6d72593da33c4472e3b8a6ffc093d3\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_812915a4903507910492d4b59ca18e5fe3f02a8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\b1c7a746310c5a3e567797ee8a2fa828cbe31e0f\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_8e65559a3d86221ccec08358b41734e044de0c3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\674501f8469a2d4381e6e03084cc561bf1d5e831\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7224d97c5969341484e3c2f733029d39972a40d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\3d6c7ef91cfd35b71e36d8eaee9a37c7c62c82ac\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_fb3d0160b9c5f9e40e65a1ee2153885d88716816\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\a7549e1f644eaf3bd1d4bcaa3daadada3227dbdd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_039438c62cd129b8a750dfc8ab1bb4eefcea94b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\4724df3ea6be637dfe16b64081dbe04f35a858b7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b952c6ff8e66443ab6bd85125a1e143ab71cf770\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\b1c7a746310c5a3e567797ee8a2fa828cbe31e0f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fbcf9cced515ac69643f76a9fd32d4f1bd60f6b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\27e151ae3b6d72593da33c4472e3b8a6ffc093d3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b58bc220b25caa9a0a4afa4ad2f302a0f415601\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\b0344c577c06b919138ea70f0c950f17a0a6587b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_93d4ca83be1a16a7bf15985bb5837bc7c08547a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\phillee\.android\build-cache\a96cd25c9b62b09aa32100ed443604e7aa3e4701\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\AndroidStudioProjects\android-JobScheduler-master\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58c9d6649468763fe5c85aed306cdf7f080c06e1\classes.dex" />
+    </item>
+
+</items>

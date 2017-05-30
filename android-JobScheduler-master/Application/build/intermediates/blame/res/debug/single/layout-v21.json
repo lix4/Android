@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\android-JobScheduler-master\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\phillee\\.android\\build-cache\\c23cf0125d46d5e1da801665ba679ec5fd5960c6\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\android-JobScheduler-master\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\phillee\\.android\\build-cache\\c23cf0125d46d5e1da801665ba679ec5fd5960c6\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\android-JobScheduler-master\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\phillee\\.android\\build-cache\\c23cf0125d46d5e1da801665ba679ec5fd5960c6\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\android-JobScheduler-master\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\phillee\\.android\\build-cache\\c23cf0125d46d5e1da801665ba679ec5fd5960c6\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]
