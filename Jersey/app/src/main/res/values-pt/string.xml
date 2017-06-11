@@ -8,7 +8,7 @@
     <string name="blue">Azul</string>
     <string name="red">Vermelho</string>
     <string name="action_settings">Configuracoes</string>
-    <string name="reset">Restaurar</string>
+    <string name="action_reset">Restaurar</string>
     <string name="confirmation_dialog_message">Restaurar informacoes do Jersey?</string>
     <string name="edit_dialog_title">Atualizar informacoes do Jersey</string>
     <string name="default_jersey_name">ANDROID</string>
