@@ -10,7 +10,7 @@ public class Jersey {
     private boolean isRed;
 
     public Jersey() {
-        this.playerName = "Android";
+        this.playerName = "ANDROID";
         this.PlayerNumber = 17;
         this.isRed = true;
     }
@@ -35,7 +35,7 @@ public class Jersey {
         return isRed;
     }
 
-    public void setRed(boolean red) {
+    public void setISRed(boolean red) {
         isRed = red;
     }
 }
