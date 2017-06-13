@@ -1,6 +1,6 @@
 package edu.rosehulman.lix4.pointofsale;
 
-import android.app.AlertDialog;
+import android.support.v7.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.View;
 import android.view.Menu;
@@ -60,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void addEditItem(final boolean isEditing) {
         DialogFragment df = new DialogFragment() {
-            @NonNull
+            //            @NonNull
             @Override
             public Dialog onCreateDialog(Bundle savedInstanceState) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
@@ -81,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                         String name = nameEditText.getText().toString();
                         int quantity = Integer.parseInt(quantityEditText.getText().toString());
                         Date deliveryDate = new Date(deliveryDateView.getDate());
+                        Log.d("TTT", deliveryDate.toString());
                         if (isEditing) {
                             mCurrentItem.setName(name);
                             mCurrentItem.setQuantity(quantity);
