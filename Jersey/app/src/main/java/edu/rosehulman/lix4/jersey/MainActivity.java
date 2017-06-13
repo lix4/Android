@@ -52,8 +52,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 updateItem();
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
             }
         });
 
@@ -97,7 +95,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 String playerName = playerNameEdit.getText().toString();
-                int playNumber = Integer.parseInt(playerNumberEdit.getText().toString());
+                int playNumber = 0;
+                String temp = playerNumberEdit.getText().toString();
+                Log.d("temp", temp);
+                if (!temp.equals("")) {
+                    playNumber = Integer.parseInt(playerNumberEdit.getText().toString());
+                }
                 boolean isRed = toggleButton.isChecked();
                 mJersey.setPlayerName(playerName);
                 mJersey.setPlayerNumber(playNumber);
@@ -126,6 +129,7 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         switch (item.getItemId()) {
             case R.id.action_reset:
+                resetJersey();
                 return true;
             case R.id.action_settings:
                 startActivity(new Intent(Settings.ACTION_LOCALE_SETTINGS));
@@ -133,5 +137,20 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void resetJersey() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        builder.setTitle(R.string.confirmation_dialog_message);
+        builder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                mJersey = new Jersey();
+                showCurrentJersey();
+//                Snackbar.make();
+            }
+        });
+        builder.setNegativeButton(android.R.string.cancel, null);
+        builder.show();
     }
 }
