@@ -24,6 +24,8 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
     private final static String PREFS = "PREFS";
     private static final String KEY_JERSEY_NAME = "KEY_JERSEY_NAME";
+    private static final String KEY_JERSEY_NUMBER = "KEY_JERSEY_NUMBER";
+    private static final String KEY_JERSEY_ISRED = "KEY_JERSEY_ISRED";
     private Jersey mJersey;
     private TextView mCurrentNameView;
     private TextView mCurrentNumberView;
@@ -38,14 +40,21 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPreferences prefs = getSharedPreferences(PREFS, MODE_PRIVATE);
         String name = prefs.getString(KEY_JERSEY_NAME, getString(R.string.default_jersey_name));
-//        int number=prefs.getInt(,get)
+        int number = prefs.getInt(KEY_JERSEY_NUMBER, 17);
+        boolean tempIsRed = prefs.getBoolean(KEY_JERSEY_ISRED, true);
+        Log.d("sharep name", name);
         // Get the other fields. Then use them all
 
         mJersey = new Jersey();
+        mJersey.setISRed(tempIsRed);
+        mJersey.setPlayerNumber(number);
+        mJersey.setPlayerName(name);
 
         mCurrentImageView = (ImageView) findViewById(R.id.image_view);
         mCurrentNameView = (TextView) findViewById(R.id.player_name_view);
         mCurrentNumberView = (TextView) findViewById(R.id.player_number_view);
+
+        showCurrentJersey();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -73,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences(PREFS, MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
         editor.putString(KEY_JERSEY_NAME, mJersey.getPlayerName());
-//        editor.putInt();
-//        editor.putBoolean();
+        editor.putInt(KEY_JERSEY_NUMBER, mJersey.getPlayerNumber());
+        editor.putBoolean(KEY_JERSEY_ISRED, mJersey.isRed());
         // Put the other fields into the editor
         editor.commit();
 
@@ -97,7 +106,6 @@ public class MainActivity extends AppCompatActivity {
                 String playerName = playerNameEdit.getText().toString();
                 int playNumber = 0;
                 String temp = playerNumberEdit.getText().toString();
-                Log.d("temp", temp);
                 if (!temp.equals("")) {
                     playNumber = Integer.parseInt(playerNumberEdit.getText().toString());
                 }
@@ -145,9 +153,19 @@ public class MainActivity extends AppCompatActivity {
         builder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
+                final Jersey mClearedJersey = mJersey;
                 mJersey = new Jersey();
                 showCurrentJersey();
-//                Snackbar.make();
+                Snackbar.make(findViewById(R.id.coordinate_layout), "Jersey Reset", Snackbar.LENGTH_LONG)
+                        .setAction("UNDO", new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                mJersey = mClearedJersey;
+                                showCurrentJersey();
+                                Snackbar.make(findViewById(R.id.coordinate_layout), "Jersey Restored", Snackbar.LENGTH_LONG)
+                                        .show();
+                            }
+                        }).show();
             }
         });
         builder.setNegativeButton(android.R.string.cancel, null);
