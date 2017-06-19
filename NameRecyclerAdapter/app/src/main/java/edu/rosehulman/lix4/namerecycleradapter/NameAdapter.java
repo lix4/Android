@@ -2,6 +2,7 @@ package edu.rosehulman.lix4.namerecycleradapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,9 +19,11 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.ViewHolder> {
     private Context mContext;
     final ArrayList<String> mNames = new ArrayList<>();
     private Random mRandom = new Random();
+    private RecyclerView mRecyclerView;
 
-    public NameAdapter(Context context) {
+    public NameAdapter(Context context, RecyclerView recyclerView) {
         mContext = context;
+        mRecyclerView = recyclerView;
         for (int i = 0; i < 5; i++) {
             mNames.add(getRandomName());
         }
@@ -46,6 +49,7 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.ViewHolder> {
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.name_view, parent, false);
+        Log.d("onCreateViewHolder: ", "inside viewholder");
         return new ViewHolder(itemView);
     }
 
@@ -55,41 +59,37 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.ViewHolder> {
 
         public ViewHolder(View itemView) {
             super(itemView);
+            itemView.setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View v) {
+                    deleteName(getAdapterPosition());
+                    return false;
+                }
+            });
             nameTextView = (TextView) itemView.findViewById(R.id.name_view);
             positionTextView = (TextView) itemView.findViewById(R.id.position_view);
-
         }
 
 
     }
 
     @Override
-    public void onBindViewHolder(NameAdapter.ViewHolder holder, int position) {
-
-    }
-
-    public View getView(int position, View convertView, ViewGroup parent) {
-        View view = null;
-        if (convertView == null) {
-            view = LayoutInflater.from(mContext).inflate(R.layout.name_view, parent, false);
-        } else {
-            view = convertView;
-        }
-        String currentName = mNames.get(position);
-        TextView nameTextView = (TextView) view.findViewById(R.id.name_view);
-        TextView numberTextView = (TextView) view.findViewById(R.id.position_view);
-        nameTextView.setText(currentName);
-        numberTextView.setText(String.format("I am on #%d", (position + 1)));
-        return view;
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        String name = mNames.get(position);
+        holder.nameTextView.setText(name);
+        holder.positionTextView.setText(String.format("I am #%d", (position + 1)));
     }
 
     public void addName() {
         mNames.add(0, getRandomName());
+//        notifyItemInserted(0);
         notifyDataSetChanged();
+        mRecyclerView.getLayoutManager().scrollToPosition(0);
     }
 
     public void deleteName(int position) {
         mNames.remove(position);
+//        notifyItemRemoved(position);
         notifyDataSetChanged();
     }
 
