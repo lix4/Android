@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "335705891783",
+    "firebase_url": "https://final-exam-201740.firebaseio.com",
+    "project_id": "final-exam-201740",
+    "storage_bucket": "final-exam-201740.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335705891783:android:92377a49ea43909f",
+        "android_client_info": {
+          "package_name": "edu.rosehulman.lix4.finalexamlix4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335705891783-rurlvqu24t0um87u543gofhdof9ibkjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBPSA3rE5fh1Bg7a1TAqK1SOsI1XlFXSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

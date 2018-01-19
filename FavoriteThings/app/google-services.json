@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "525547983099",
+    "firebase_url": "https://favourite-things-31875.firebaseio.com",
+    "project_id": "favourite-things-31875",
+    "storage_bucket": "favourite-things-31875.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525547983099:android:f8222863110d4409",
+        "android_client_info": {
+          "package_name": "edu.rosehulman.favoritethings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525547983099-fl3ftn5qcnpa6t22l16fpfgeq9443pd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzz1NlCKstmO7wB_ZHmN17EWq3yEDV5Tw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

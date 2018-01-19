@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Midtermlix4</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_revert">Revert</string>
+    <string name="action_toggle">Toggle</string>
+    <string name="dialog_title">Choose an operation</string>
+    <string name="choice_addition">Addition</string>
+    <string name="choice_substraction">Substraction</string>
+    <string name="choice_multiplication">Multiplication</string>
+    <string name="choice_division">Division</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_reset">Reset</string>
+    <string name="dialog_reset_message">Reset Your Problems?</string>
+    <string name="dialog_win">You Win!</string>
+</resources>

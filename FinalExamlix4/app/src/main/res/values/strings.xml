@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">lix4</string>
+    <string name="title_home">All</string>
+    <string name="title_dashboard">Mine</string>
+    <string name="title_notifications">Filtered</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_new_riddle_title">New Riddle</string>
+    <string name="dialog_set_owner_title">Set the owner</string>
+    <string name="dialog_filter_username_title">Enter the username</string>
+    <string name="add_new_recipients">ADD RECIPIENTS</string>
+    <string name="owner">Owner: %s</string>
+    <string name="recipients">To: %s</string>
+</resources>

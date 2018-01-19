@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.rosehulman.lix4.midtermlix4.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings" />
+
+    <item
+        android:id="@+id/action_revert"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="99"
+        android:title="@string/action_revert"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_toggle"
+        android:icon="@android:drawable/ic_menu_view"
+        android:orderInCategory="98"
+        android:title="@string/action_toggle"
+        app:showAsAction="always" />
+</menu>

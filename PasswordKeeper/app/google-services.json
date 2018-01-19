@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "58579768434",
+    "firebase_url": "https://lix4-password-keeper.firebaseio.com",
+    "project_id": "lix4-password-keeper",
+    "storage_bucket": "lix4-password-keeper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58579768434:android:e990c52a0f880fe5",
+        "android_client_info": {
+          "package_name": "edu.rosehulman.passwordkeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58579768434-m39p0e4denv65thvb0me1k8jd6vnslsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoL9Vfb47NfL1keoP38hbHw0g0ak6pnqg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

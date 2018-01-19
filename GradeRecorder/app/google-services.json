@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "800176837847",
+    "firebase_url": "https://phillee085.firebaseio.com",
+    "project_id": "phillee085",
+    "storage_bucket": "phillee085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800176837847:android:1c8f9b456a1f5d06",
+        "android_client_info": {
+          "package_name": "edu.rosehulman.graderecorderfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800176837847-jeup9h50vmnmg55qd59105go5jolugl5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "800176837847-in7c7gq7ap876bemd3n3c3qqjc588hm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs5MiFbkpBmnup7_NhbiBPefZNLGPz-NI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

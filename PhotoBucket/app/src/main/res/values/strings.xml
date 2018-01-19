@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PhotoBucket</string>
+    <string name="action_logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_title_add">Add a Weatherpic</string>
+    <string name="pic_caption_hint">caption</string>
+    <string name="pic_url_hint">URL of photo</string>
+    <string name="dialog_title_edit">Edit a Weatherpic</string>
+    <string name="delete">DELETE</string>
+    <string name="action_show_mine">SHOW MINE</string>
+    <string name="action_show_all">SHOW ALL</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="invalid_email">This email address is invalid</string>
+    <string name="field_required">This field is required</string>
+    <string name="login_error">Login Error!</string>
+    <string name="invalid_password">Password is too short</string>
+</resources>

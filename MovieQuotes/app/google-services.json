@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "52870275664",
+    "firebase_url": "https://lix4-movie-quotes-a7c38.firebaseio.com",
+    "project_id": "lix4-movie-quotes-a7c38",
+    "storage_bucket": "lix4-movie-quotes-a7c38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52870275664:android:b571312a233e6030",
+        "android_client_info": {
+          "package_name": "edu.rosehulman.moviequotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52870275664-r70di5jo3vj4ijdu0sv472ct08on91cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDklQwXZdCIWD4yhYxf10zxT8CHmWeC_8Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "900453792431",
+    "firebase_url": "https://lix4-photo-bucket.firebaseio.com",
+    "project_id": "lix4-photo-bucket",
+    "storage_bucket": "lix4-photo-bucket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900453792431:android:a2bda25067cc1eed",
+        "android_client_info": {
+          "package_name": "edu.rosehulman.lix4.photobucket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900453792431-l6e7tirfquso4236fobvouprh58sllrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS5y5WqTUfUXwi8bLoUS6rvELbPyV_Ej4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

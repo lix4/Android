@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="rosefire-android-client-2.1.0">
+    <CLASSES>
+      <root url="jar://D:/.android/.android/build-cache/25e234626c46a8e3ed280089c5bc1d11e71ddef2/output/jars/classes.jar!/" />
+      <root url="file://D:/.android/.android/build-cache/25e234626c46a8e3ed280089c5bc1d11e71ddef2/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

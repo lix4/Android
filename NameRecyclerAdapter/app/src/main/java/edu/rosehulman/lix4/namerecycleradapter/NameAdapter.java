@@ -49,7 +49,6 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.ViewHolder> {
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.name_view, parent, false);
-        Log.d("onCreateViewHolder: ", "inside viewholder");
         return new ViewHolder(itemView);
     }
 
